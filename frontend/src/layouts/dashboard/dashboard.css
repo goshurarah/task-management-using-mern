@@ -1,0 +1,44 @@
+.welcome-main-container {
+    background-color: white;
+    border-radius: 30px;
+    min-height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.welcome-left-container {
+    width: 60%;
+}
+
+.welcome-right-container {
+    width: 40%;
+}
+
+.mng-text {
+    font-family: Inter;
+    font-size: 23.52px;
+    font-weight: 600;
+    color: darkcyan;
+    text-align: center;
+}
+
+.mng-para {
+    font-family: Inter;
+    font-size: 19.6px;
+    font-weight: 400;
+    color: grey;
+    text-align: center;
+}
+
+.welcome-right-container {
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-img {
+    height: 100%;
+    width: 50%;
+}

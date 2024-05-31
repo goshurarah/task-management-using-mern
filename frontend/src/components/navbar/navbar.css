@@ -1,0 +1,74 @@
+.nav-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: rgba(248, 248, 248, 1);
+    padding: 0 2rem;
+    border-radius: 12px;
+    margin: 3rem 0;
+}
+
+.nav-main-text {
+    font-family: Inter;
+    font-size: 32px;
+    font-size: 600;
+    line-height: 38.73px;
+    color: darkcyan;
+}
+
+.nav-main-text span {
+    font-family: Inter;
+    font-size: 32px;
+    font-size: 600;
+    line-height: 38.73px;
+    color: #000000;
+}
+
+.nav-search-container {
+    height: 34px;
+    width: 43%;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-search-container input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 0.5rem;
+    outline: none;
+}
+
+.icon-img {
+    cursor: pointer;
+    height: 34px;
+    width: 34px;
+}
+
+.nav-notification-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-day-text {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.15px;
+    color: #000000;
+}
+
+.nav-date-text {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    color: darkcyan;
+}
