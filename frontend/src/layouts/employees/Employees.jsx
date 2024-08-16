@@ -59,7 +59,6 @@ function Employees() {
     getEmployees()
     getEmployeesStats()
   }, [])
-  console.log(employeesStats)
   return (
     <>
       <AddEmployeeModal isOpen={isAddEmployeeModalOpen} onClose={closeAddEmployeeModal} />

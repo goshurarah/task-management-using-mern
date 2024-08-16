@@ -104,7 +104,7 @@ function AddEmployeeModal({ isOpen, onClose }) {
                         <Input mt={3} mb={3} type='email' required placeholder='Email' name='email' value={formData.email} onChange={handleChange} />
                         <Input mt={3} mb={3} type='number' required placeholder='Phone' name='phone' value={formData.phone} onChange={handleChange} />
                         <Input mt={3} mb={3} type='text' required placeholder='Residential Address' name='residentialAddress' value={formData.residentialAddress} onChange={handleChange} />
-                        <Input mt={3} mb={3} type='number' required placeholder='CNIC' name='cnic' value={formData.cnic} onChange={handleChange} />
+                        <Input mt={3} mb={3} type='text' required placeholder='CNIC' name='cnic' value={formData.cnic} onChange={handleChange} />
                         <Input mt={3} mb={3} type='text' required placeholder='Role' name='role' value={formData.role} onChange={handleChange} />
                         <Input mt={3} mb={3} required placeholder="Date Of Birth" type="date" name='dateOfBirth' value={formData.dateOfBirth} onChange={handleChange} />
                         <Input mt={3} mb={3} required placeholder="Start Date" type="date" name='startDate' value={formData.startDate} onChange={handleChange} />

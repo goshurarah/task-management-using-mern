@@ -4,7 +4,7 @@ const authMiddleware = require('../middleware/auth');
 const Employee = require('../models/employees');
 
 
-router.post('/employee', authMiddleware, async (req, res) => {
+router.post('/employee', async (req, res) => {
     try {
         const {
             employee_id,

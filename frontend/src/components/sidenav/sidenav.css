@@ -85,3 +85,11 @@
     cursor: pointer;
     color: darkcyan;
 }
+
+.default-hover .sidenav-icon {
+    color: darkcyan;
+}
+
+.default-hover .sidenav-list-text {
+    color: darkcyan;
+}
